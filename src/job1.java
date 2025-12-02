@@ -1,4 +1,5 @@
 void main() {
+
 //    for (int i = 1; i < 50 ; i++) {
 //        System.out.println(i);
 //    }
@@ -24,7 +25,12 @@ void main() {
 //        System.out.println(i);
 //    }
 
-
+    int [] numbers = {2, 4, 6, 34, 45, 23, 45, 32, 34};
+   int sum = 0;
+  for (int i = 0; i < numbers.length; i++) {
+      sum = sum + numbers[i];
+      System.out.println(numbers[sum]);
+  }
 
 
 

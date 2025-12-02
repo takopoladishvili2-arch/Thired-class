@@ -1,11 +1,11 @@
 void main() {
 
-    String text = "ლელა, ძალიან მიყვარხარ";
-      if (text.length() % 2 ==0 ) {
-          System.out.println("ლუწია");
-          }
-      else {
-          System.out.println("კენტია");
-      }
+    int [] numbers = {11, 222, 333, 44, -55, 6, 7, 8,};
+
+    for (int i =0; i < numbers.length; i++){
+        if (i ==5 )
+            continue;
+        System.out.println(numbers[i]);
+    }
 
 }
